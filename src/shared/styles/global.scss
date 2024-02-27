@@ -40,9 +40,33 @@
 
 body {
   overflow-x: hidden;
+  @apply bg-custom-blue;
 }
 
 button,
 a {
   cursor: pointer;
+}
+
+.container {
+  width: 86.6%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.paragraph {
+  font-family: "Gotham Pro";
+  font-size: clamp(10px, 1.0416vw, 40px);
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.orange_gradient {
+  background: linear-gradient(92deg, #ef7f1a 5.92%, #e74623 112.8%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

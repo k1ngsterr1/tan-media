@@ -2,16 +2,25 @@ import React, { ReactHTMLElement } from "react";
 
 import styles from "./styles.module.scss";
 
-interface ButtonProps extends ReactHTMLElement<HTMLButtonElement> {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
   margin: string;
-  styleType: "filled" | "outline";
+  buttonType: "filled" | "outline";
 }
 
-export const Button: React.FC<ButtonProps> = ({ text, styleType, margin }) => {
-  const buttonClass = `${styles.button} ${styles[`button--${buttonType}`]} ${
+export const Button: React.FC<ButtonProps> = ({
+  text,
+  buttonType,
+  margin,
+  ...rest
+}) => {
+  const buttonClass = `${styles.button} ${styles[`${buttonType}`]} ${
     margin ? margin : ""
   }`;
 
-  return <button>index</button>;
+  return (
+    <button className={buttonClass} {...rest}>
+      {text}
+    </button>
+  );
 };

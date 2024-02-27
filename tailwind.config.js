@@ -13,6 +13,7 @@ export default {
           "linear-gradient(92deg, #EF7F1A 5.92%, #E74623 112.8%)",
         "custom-blue": "#151D38",
         "custom-orange": "#FF7300",
+        "custom-white": "rgba(255, 255, 255, 0.80)",
       },
     },
   },
