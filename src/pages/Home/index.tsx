@@ -1,10 +1,12 @@
-import { MainScreen } from "@widgets/Screens/HomePage/Main";
+import VantaBackground from "@shared/lib/3d";
+import { AboutScreen } from "@widgets/Screens/HomePage/About";
 import React from "react";
 
 export const HomePage = () => {
   return (
     <div>
-      <MainScreen />
+      <VantaBackground />
+      <AboutScreen />
     </div>
   );
 };

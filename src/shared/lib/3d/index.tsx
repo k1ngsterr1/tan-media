@@ -34,7 +34,7 @@ const VantaBackground = () => {
   }, [vantaEffect]);
 
   return (
-    <div ref={vantaRef} className={styles.background} id="vanta-bg">
+    <section ref={vantaRef} className={styles.background} id="vanta-bg">
       <Header />
       <main className="container">
         <h1 className={styles.background__heading}>
@@ -47,7 +47,7 @@ const VantaBackground = () => {
         </p>
         <Button text="Связаться с нами" buttonType="filled" margin="mt-4" />
       </main>
-    </div>
+    </section>
   );
 };
 
