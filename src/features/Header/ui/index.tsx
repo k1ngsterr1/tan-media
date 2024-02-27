@@ -2,10 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import styles from "./styles.module.scss";
+import { Logo } from "@shared/ui/Logo";
+import { Button } from "@shared/ui/Button";
 
 export const Header = () => {
   return (
     <header className={styles.header}>
+      <Logo />
       <nav className={styles.header__nav}>
         <Link to="/home" className={styles.header__nav__link}>
           Главная

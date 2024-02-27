@@ -40,7 +40,7 @@
 
 body {
   overflow-x: hidden;
-  @apply bg-custom-blue;
+  background-color: #0b1948;
 }
 
 button,
@@ -50,7 +50,7 @@ a {
 
 .container {
   width: 86.6%;
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

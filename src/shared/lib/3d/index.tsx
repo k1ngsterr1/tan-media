@@ -5,6 +5,7 @@ import * as THREE from "three";
 import GLOBE from "vanta/dist/vanta.globe.min.js";
 
 import styles from "./styles.module.scss";
+import { Header } from "@features/Header/ui";
 
 const VantaBackground = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -34,6 +35,7 @@ const VantaBackground = () => {
 
   return (
     <div ref={vantaRef} className={styles.background} id="vanta-bg">
+      <Header />
       <main className="container">
         <h1 className={styles.background__heading}>
           Крупнейший <span className="orange_gradient">медиахолдинг</span> в
