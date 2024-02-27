@@ -11,7 +11,7 @@ import unique from "@assets/holding/unique.png";
 
 export const AboutScreen = () => {
   return (
-    <section className="container">
+    <section className="container ">
       <Marquee className="flex items-center mt-4" speed={130}>
         <img src={forbes} alt="forbes" className="w-1/2" />
         <img src={arbat} alt="arbat" className="w-1/2" />

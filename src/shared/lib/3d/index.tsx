@@ -1,11 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@shared/ui/Button";
+import { Header } from "@features/Header/ui";
 
 import * as THREE from "three";
 import GLOBE from "vanta/dist/vanta.globe.min.js";
 
+import blur from "@assets/blur.png";
+
 import styles from "./styles.module.scss";
-import { Header } from "@features/Header/ui";
 
 const VantaBackground = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
