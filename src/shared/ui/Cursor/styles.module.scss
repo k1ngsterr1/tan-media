@@ -1,0 +1,33 @@
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border: 3px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  @apply rounded-full;
+  @apply border-custom-orange;
+
+  &__T {
+    width: 1px;
+    height: 1px;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .cursor {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cursor {
+    display: flex !important;
+  }
+}

@@ -14,7 +14,7 @@ export const Button: React.FC<ButtonProps> = ({
   margin,
   ...rest
 }) => {
-  const buttonClass = `${styles.button} ${styles[`${buttonType}`]} ${
+  const buttonClass = `${styles.button} hoverable ${styles[`${buttonType}`]} ${
     margin ? margin : ""
   }`;
 
