@@ -1,9 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { Button } from "@shared/ui/Button";
+
 import * as THREE from "three";
 import GLOBE from "vanta/dist/vanta.globe.min.js";
 
 import styles from "./styles.module.scss";
-import { Button } from "@shared/ui/Button";
 
 const VantaBackground = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -33,7 +34,7 @@ const VantaBackground = () => {
 
   return (
     <div ref={vantaRef} className={styles.background} id="vanta-bg">
-      <div className="container">
+      <main className="container">
         <h1 className={styles.background__heading}>
           Крупнейший <span className="orange_gradient">медиахолдинг</span> в
           казахстане
@@ -43,8 +44,7 @@ const VantaBackground = () => {
           масштабных медиаресурсов и безграничное количество возможностей.
         </p>
         <Button text="Связаться с нами" buttonType="filled" margin="mt-4" />
-      </div>
-      <div className={styles.decoration}></div>
+      </main>
     </div>
   );
 };
