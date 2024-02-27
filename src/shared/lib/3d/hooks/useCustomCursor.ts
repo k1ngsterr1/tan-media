@@ -7,8 +7,8 @@ export const useCustomCursor = (cursorRef: RefObject<HTMLElement>) => {
       const { clientX: x, clientY: y } = e;
       if (cursorRef.current) {
         gsap.to(cursorRef.current, {
-          x: x - cursorRef.current.clientWidth / 2,
-          y: y - cursorRef.current.clientHeight / 2,
+          x: x,
+          y: y,
           duration: 0.1,
           ease: "power3.out",
         });
