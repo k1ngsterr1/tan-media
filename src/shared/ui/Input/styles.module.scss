@@ -1,5 +1,5 @@
 .input_container {
-  width: 300px;
+  width: clamp(150px, 15.624vw, 600px);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -9,9 +9,9 @@
 
   &__label {
     position: absolute;
-    left: 8px;
-    font-size: 18px;
+    font-size: clamp(9px, 0.93744vw, 36px);
     font-family: "Gotham Pro";
+    z-index: -1;
     @apply bottom-1;
     @apply left-2;
     @apply text-custom-white;
@@ -21,7 +21,8 @@
     background: transparent;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: clamp(9px, 0.93744vw, 36px);
+    z-index: 1;
     @apply pl-2;
     @apply pb-1;
     @apply text-custom-orange;

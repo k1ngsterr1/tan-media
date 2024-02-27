@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import { useCustomLabel } from "@shared/lib/3d/hooks/useCustomLabel";
 
 import styles from "./styles.module.scss";
 
@@ -14,13 +15,21 @@ export const Input: React.FC<Input> = ({
   type,
   ...rest
 }) => {
+  const labelRef = useRef<HTMLLabelElement>(null);
+  const { onLabelFocus, onLabelBlur } = useCustomLabel(labelRef);
+
   return (
     <div className={`${styles.input_container} ${margin} hoverable`} {...rest}>
-      <label className={`${styles.input_container__label} hoverable`}>
+      <label
+        className={`${styles.input_container__label} hoverable`}
+        ref={labelRef}
+      >
         {labelText}
       </label>
       <input
         type={type}
+        onFocus={onLabelFocus}
+        onBlur={onLabelBlur}
         className={`${styles.input_container__input} hoverable`}
       />
     </div>
