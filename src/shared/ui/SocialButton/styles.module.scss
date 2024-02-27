@@ -1,0 +1,25 @@
+.button {
+  width: clamp(24px, 2.49984vw, 96px);
+  height: clamp(24px, 2.49984vw, 96px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid;
+  transition: 0.3s all;
+  @apply rounded-full;
+  @apply border-custom-white;
+
+  &:hover {
+    @apply border-custom-orange;
+  }
+
+  &:hover &__icon {
+    @apply text-custom-orange;
+  }
+
+  &__icon {
+    font-size: clamp(10px, 1.0416vw, 40px);
+    @apply text-custom-white;
+  }
+}

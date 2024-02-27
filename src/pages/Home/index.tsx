@@ -1,7 +1,7 @@
 import VantaBackground from "@shared/lib/3d";
-import { Form } from "@widgets/Form/ui";
 import { FormScreen } from "@widgets/Screens/FormScreen";
 import { AboutScreen } from "@widgets/Screens/HomePage/About";
+import { Footer } from "@features/Footer/ui";
 
 export const HomePage = () => {
   return (
@@ -9,6 +9,7 @@ export const HomePage = () => {
       <VantaBackground />
       <AboutScreen />
       <FormScreen />
+      <Footer />
     </div>
   );
 };

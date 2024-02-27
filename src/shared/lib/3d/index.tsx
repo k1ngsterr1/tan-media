@@ -5,8 +5,6 @@ import { Header } from "@features/Header/ui";
 import * as THREE from "three";
 import GLOBE from "vanta/dist/vanta.globe.min.js";
 
-import blur from "@assets/blur.png";
-
 import styles from "./styles.module.scss";
 
 const VantaBackground = () => {

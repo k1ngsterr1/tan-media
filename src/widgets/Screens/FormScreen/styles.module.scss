@@ -5,10 +5,38 @@
   @apply mt-8;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__name {
+    font-size: clamp(8.5px, 0.88536vw, 34px);
+    font-family: "Gotham Pro";
+    font-weight: 500;
+    @apply text-white;
+    @apply mt-2;
+  }
+
+  &__text {
+    font-size: clamp(9px, 0.93744vw, 36px);
+    font-family: "Gotham Pro";
+    font-weight: 500;
+    @apply mt-8;
+    @apply text-custom-orange;
+  }
+  &__link {
+    font-size: clamp(8px, 0.83328vw, 32px);
+    font-family: "Gotham Pro";
+    @apply text-white;
+    @apply mt-2;
+  }
+}
+
 .bg {
   width: 80%;
   right: -400px;
-  top: -200px;
+  top: -150px;
   z-index: -1;
   position: absolute;
 }
