@@ -1,0 +1,14 @@
+.heading {
+  font-size: clamp(24px, 2.49984vw, 96px);
+  font-weight: 600;
+  @apply text-white;
+  @apply mt-8;
+}
+
+.bg {
+  width: 70%;
+  top: clamp(600px, 62.496vw, 2400px);
+  right: 0;
+  z-index: -1;
+  position: absolute;
+}
