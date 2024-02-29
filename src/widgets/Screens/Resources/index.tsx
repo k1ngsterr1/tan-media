@@ -10,20 +10,20 @@ export const ResourcesScreen = () => {
         dictumst. Integer laoreet magna nulla, sed feugiat nisi mollis nec. Ut
         tempor id tellus at semper.
       </p>
-      <div className="w-full flex justify-between items-start">
-        <ResourceTab name="Forbes Kazakhstan " bgImage="forbes" />
-        <ResourceTab name="Business FM" bgImage="businessFM" />
-        <ResourceTab name="Arbat Media" bgImage="arbat" />
+      <div className="w-full flex justify-between items-start mt-16">
+        <ResourceTab name="Forbes Kazakhstan " bgImage="forbes hoverable" />
+        <ResourceTab name="Business FM" bgImage="businessFM hoverable" />
+        <ResourceTab name="Arbat Media" bgImage="arbat hoverable" />
       </div>
-      <div className="w-full flex justify-between items-start">
-        <ResourceTab name="Muzzone" bgImage="muzzone" />
-        <ResourceTab name="Tan Digital Media" bgImage="tan_digital" />
-        <ResourceTab name="@Armanzhan" bgImage="armanzhan" />
+      <div className="w-full flex justify-between items-start mt-8">
+        <ResourceTab name="Muzzone" bgImage="muzzone hoverable" />
+        <ResourceTab name="Tan Digital Media" bgImage="tan_digital hoverable" />
+        <ResourceTab name="@Armanzhan" bgImage="armanzhan hoverable" />
       </div>
-      <div className="w-full flex justify-between items-start">
-        <ResourceTab name="Baitassov Live" bgImage="baitassov_live" />
-        <ResourceTab name="Mediacafe" bgImage="mediacafe" />
-        <ResourceTab name="Unique Media" bgImage="unique" />
+      <div className="w-full flex justify-between items-start mt-8">
+        <ResourceTab name="Baitassov Live" bgImage="baitassov_live hoverable" />
+        <ResourceTab name="Mediacafe" bgImage="mediacafe hoverable" />
+        <ResourceTab name="Unique Media" bgImage="unique hoverable" />
       </div>
     </section>
   );

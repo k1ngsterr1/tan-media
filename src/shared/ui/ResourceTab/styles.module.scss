@@ -1,10 +1,15 @@
 .resource_tab {
   width: 30.3%;
   height: clamp(150px, 15.624vw, 600px);
+  transition: 0.3s all;
   @apply rounded-2xl;
 
   &__name {
     @apply text-custom-orange;
     @apply text-xl;
+  }
+
+  &:hover {
+    @apply shadow-2xl;
   }
 }
