@@ -1,0 +1,10 @@
+.resource_tab {
+  width: 30.3%;
+  height: clamp(150px, 15.624vw, 600px);
+  @apply rounded-md;
+
+  &__name {
+    @apply text-custom-orange;
+    @apply text-xl;
+  }
+}

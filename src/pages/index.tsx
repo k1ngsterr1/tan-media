@@ -1,16 +1,16 @@
-import React from "react";
-
 import {
   BrowserRouter as Router,
   Route,
   Navigate,
   Routes,
 } from "react-router-dom";
+
 import { ROUTE_CONSTANTS } from "@shared/config/routes";
 
 // Pages
 import { HomePage } from "./Home";
 import { HoldingPage } from "./Holding";
+import { ResourcesPage } from "./Resources";
 
 export const MyRoutes = () => {
   return (
@@ -22,6 +22,7 @@ export const MyRoutes = () => {
         <Route path="/index.html" element={<Navigate to="/home" />} />
         <Route path="/index.shtml" element={<Navigate to="/home" />} />
         <Route path={ROUTE_CONSTANTS.HOLDING} element={<HoldingPage />} />
+        <Route path={ROUTE_CONSTANTS.RESOURCES} element={<ResourcesPage />} />
       </Routes>
     </Router>
   );
