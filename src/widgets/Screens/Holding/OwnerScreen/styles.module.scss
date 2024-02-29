@@ -1,0 +1,17 @@
+.name {
+  font-family: Gotham Pro;
+  font-size: clamp(16px, 1.66656vw, 64px);
+  @apply text-white;
+}
+
+.photo {
+  width: 700px;
+  height: 100%;
+}
+
+.small_text {
+  font-size: clamp(8px, 0.83328vw, 32px);
+  @apply text-white;
+  font-family: Gotham Pro;
+  @apply mt-4;
+}

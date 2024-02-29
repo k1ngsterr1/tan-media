@@ -14,8 +14,8 @@ export const HoldingScreen = () => {
           tempor id tellus at semper.
         </p>
       </div>
-      <div className="flex items-center justify-between"></div>
-      <div className="flex items-start justify-between">
+
+      <div className="flex items-start justify-between mb-20">
         <AboutBlock
           number="01"
           paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eros mi,

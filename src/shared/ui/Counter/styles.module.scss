@@ -1,0 +1,16 @@
+.counter {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top: 1px solid;
+  @apply border-custom-white;
+  @apply mt-16;
+
+  &__number {
+    font-size: clamp(24px, 2.49984vw, 96px);
+    font-family: Comissioner;
+    @apply text-custom-white;
+    @apply mt-8;
+  }
+}

@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import styles from "./styles.module.scss";
 import { Logo } from "@shared/ui/Logo";
-import { Button } from "@shared/ui/Button";
 import { SocialButton } from "@shared/ui/SocialButton";
 import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+
+import styles from "./styles.module.scss";
 
 export const Footer = () => {
   return (
