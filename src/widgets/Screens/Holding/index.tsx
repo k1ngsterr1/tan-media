@@ -2,7 +2,7 @@ import { AboutBlock } from "@shared/ui/AboutBlock";
 
 export const HoldingScreen = () => {
   return (
-    <section className="container">
+    <section className="container !mt-20 !mb-20">
       <div className="w-full flex items-center justify-between">
         <h1 className="heading">О холдинге</h1>
         <p className="paragraph w-[40%]">

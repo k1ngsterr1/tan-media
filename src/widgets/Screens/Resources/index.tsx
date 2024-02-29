@@ -2,7 +2,7 @@ import { ResourceTab } from "@shared/ui/ResourceTab";
 
 export const ResourcesScreen = () => {
   return (
-    <section className="container flex items-center justify-center">
+    <section className="container-no-height !mt-20 flex items-center justify-center">
       <h1 className="heading">Наши ресурсы</h1>
       <p className="paragraph text-center w-[50%] mt-4">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eros mi,
@@ -23,7 +23,7 @@ export const ResourcesScreen = () => {
       <div className="w-full flex justify-between items-start">
         <ResourceTab name="Baitassov Live" bgImage="baitassov_live" />
         <ResourceTab name="Mediacafe" bgImage="mediacafe" />
-        <ResourceTab name="Unique Media" bgImage="unique_media" />
+        <ResourceTab name="Unique Media" bgImage="unique" />
       </div>
     </section>
   );

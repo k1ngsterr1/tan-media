@@ -68,6 +68,15 @@ h6 {
 
 .container {
   width: 86.6%;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.container-no-height {
+  width: 86.6%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -87,4 +96,67 @@ h6 {
   background: linear-gradient(92deg, #ef7f1a 5.92%, #e74623 112.8%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.forbes {
+  background-image: url("../../assets/resources/forbes.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.businessFM {
+  background-image: url("../../assets/resources/mic.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arbat {
+  background-image: url("../../assets/resources/devices_2.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.muzzone {
+  background-image: url("../../assets/resources/muzzone.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tan_digital {
+  background-image: url("../../assets/resources/phone.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.armanzhan {
+  background-image: url("../../assets/resources/instagram.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.baitassov_live {
+  background-image: url("../../assets/resources/devices.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mediacafe {
+  background-image: url("../../assets/resources/mediacafe.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.unique {
+  background-image: url("../../assets/resources/unique.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
