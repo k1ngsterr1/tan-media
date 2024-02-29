@@ -1,11 +1,9 @@
-// import { Header } from "@features/Header/ui";
-
 import { AboutBlock } from "@shared/ui/AboutBlock";
 
 export const HoldingScreen = () => {
   return (
     <section className="container">
-      <div className="w-full flex items-center justify-between mt-16">
+      <div className="w-full flex items-center justify-between">
         <h1 className="heading">О холдинге</h1>
         <p className="paragraph w-[40%]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eros mi,
@@ -14,8 +12,7 @@ export const HoldingScreen = () => {
           tempor id tellus at semper.
         </p>
       </div>
-
-      <div className="flex items-start justify-between mb-20">
+      <div className="flex items-start justify-between">
         <AboutBlock
           number="01"
           paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eros mi,
