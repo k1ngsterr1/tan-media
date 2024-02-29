@@ -53,6 +53,19 @@ h6 {
   font-family: Commissioner;
 }
 
+.heading {
+  width: 40%;
+  color: #fff;
+  text-align: center;
+  font-family: Commissioner;
+  font-size: clamp(35px, 3.6456vw, 140px);
+  text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+
 .container {
   width: 86.6%;
   max-height: 100vh;

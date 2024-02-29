@@ -1,0 +1,19 @@
+.about_block {
+  width: 32.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top: 1px solid;
+  @apply border-custom-white;
+  @apply mt-16;
+
+  &__number {
+    font-size: 64px;
+    background: linear-gradient(92deg, #ef7f1a 5.92%, #e74623 112.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: Comissioner;
+    @apply mt-4;
+  }
+}
