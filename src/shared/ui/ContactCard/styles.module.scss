@@ -1,0 +1,34 @@
+.contact_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__icon {
+    font-size: 40px;
+    @apply text-custom-orange;
+  }
+
+  &__name {
+    font-size: 20px;
+    @apply text-white;
+    @apply mt-2;
+  }
+
+  &__email,
+  &__number {
+    font-size: 16px;
+    transition: 0.3s;
+    @apply text-white;
+    @apply mt-2;
+
+    &:hover {
+      @apply text-custom-orange;
+    }
+  }
+
+  &__role {
+    @apply text-custom-orange;
+    @apply font-bold;
+    @apply mt-2;
+  }
+}

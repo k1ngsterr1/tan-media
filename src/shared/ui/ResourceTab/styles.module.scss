@@ -1,12 +1,18 @@
 .resource_tab {
   width: 30.3%;
   height: clamp(150px, 15.624vw, 600px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: 0.3s all;
   @apply rounded-2xl;
 
   &__name {
-    @apply text-custom-orange;
-    @apply text-xl;
+    background: linear-gradient(92deg, #ef7f1a 5.92%, #e74623 112.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @apply font-bold;
+    @apply text-4xl;
   }
 
   &:hover {

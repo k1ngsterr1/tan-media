@@ -11,6 +11,7 @@ import { ROUTE_CONSTANTS } from "@shared/config/routes";
 import { HomePage } from "./Home";
 import { HoldingPage } from "./Holding";
 import { ResourcesPage } from "./Resources";
+import { ContactsPage } from "./Contacts";
 
 export const MyRoutes = () => {
   return (
@@ -23,6 +24,7 @@ export const MyRoutes = () => {
         <Route path="/index.shtml" element={<Navigate to="/home" />} />
         <Route path={ROUTE_CONSTANTS.HOLDING} element={<HoldingPage />} />
         <Route path={ROUTE_CONSTANTS.RESOURCES} element={<ResourcesPage />} />
+        <Route path={ROUTE_CONSTANTS.CONTACTS} element={<ContactsPage />} />
       </Routes>
     </Router>
   );
