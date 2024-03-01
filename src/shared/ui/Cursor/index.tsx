@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { useCustomCursor } from "@shared/lib/3d/hooks/useCustomCursor";
+import { useCustomCursor } from "@shared/lib/hooks/useCustomCursor";
 
 import T from "@assets/T.svg";
 import styles from "./styles.module.scss";

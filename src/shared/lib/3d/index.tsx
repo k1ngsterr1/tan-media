@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Button } from "@shared/ui/Button";
+import { Button, ScrollButton } from "@shared/ui/Button";
 import { Header } from "@features/Header/ui";
 
 import * as THREE from "three";
@@ -45,7 +45,12 @@ const VantaBackground = () => {
           TAN MEDIA GROUP - крупнейший медиахолдинг в Казахстане. Несколько
           масштабных медиаресурсов и безграничное количество возможностей.
         </p>
-        <Button text="Связаться с нами" buttonType="filled" margin="mt-4" />
+        <ScrollButton
+          text="Связаться с нами"
+          buttonType="filled"
+          to="form"
+          margin="mt-4"
+        />
       </main>
     </section>
   );

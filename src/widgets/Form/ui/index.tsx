@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 
 export const Form = () => {
   return (
-    <form className={styles.form}>
+    <form className={styles.form} id="form">
       <Input labelText="Ваше имя" type="text" margin="mt-2" />
       <Input labelText="Компания" type="text" margin="mt-8" />
       <Input labelText="Должность" type="text" margin="mt-8" />

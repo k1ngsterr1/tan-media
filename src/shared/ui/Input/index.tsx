@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { useCustomLabel } from "@shared/lib/3d/hooks/useCustomLabel";
+import { useCustomLabel } from "@shared/lib/hooks/useCustomLabel";
 
 import styles from "./styles.module.scss";
 
