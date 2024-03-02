@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Logo } from "@shared/ui/Logo";
 import { SocialButton } from "@shared/ui/SocialButton";
