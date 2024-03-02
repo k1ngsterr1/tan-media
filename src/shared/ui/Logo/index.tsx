@@ -12,6 +12,10 @@ export const Logo = () => {
   };
 
   return (
-    <img src={logo} className={styles.logo} onClick={handleScrollNavigate} />
+    <img
+      src={logo}
+      className={`${styles.logo} hoverable`}
+      onClick={handleScrollNavigate}
+    />
   );
 };

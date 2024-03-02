@@ -1,19 +1,24 @@
 .about_block {
-  width: 32.3%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   border-top: 1px solid;
+  transition: 0.3s all;
   @apply border-custom-white;
   @apply mt-16;
 
   &__number {
-    font-size: 64px;
+    font-size: clamp(32px, 3.33312vw, 128px);
     background: linear-gradient(92deg, #ef7f1a 5.92%, #e74623 112.8%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    font-family: Comissioner;
+    font-family: Commissioner;
     @apply mt-4;
+  }
+
+  &:hover {
+    @apply border-custom-orange;
   }
 }
